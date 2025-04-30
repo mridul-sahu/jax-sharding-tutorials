@@ -15,18 +15,20 @@ This first series of "The Aurora Project" is your masterclass in JAX sharding. W
     * Decode sharding propagation rules and compiler (GSPMD) interactions.
     * Take full control with `shard_map` for explicit SPMD programming.
     * Level up with advanced techniques like mixed sharding modes (`auto_axes`, `explicit_axes`) and conceptualize FSDP/Tensor Parallelism layouts.
+ * **Details about shard map and collectives**
 
 ## 🗺️ Your Architectural Journey (Chapters):
 
 1.  **1.1: Data Primitives** - Arrays, Devices & Explicit Memory Management.
 2.  **1.2: `pmap`** - Foundations of Data Parallelism.
 3.  **1.3: Device `Mesh`** - Abstracting Hardware Topology for Advanced Sharding.
-4.  **1.4 (Combined Module): Mastering Explicit Sharding with `jax.sharding`**
+4.  **Mastering Explicit Sharding with `jax.sharding`**
     * Defining Blueprints (`PartitionSpec`).
     * Applying Blueprints (`NamedSharding`, Sharded `jax.Array` Types, "Sharding-in-Types").
     * Sharding Propagation Rules & GSPMD Compiler Integration.
     * `shard_map`: Explicit Per-Device Programming.
     * Advanced Sharding Techniques & Mixed Modes.
+5.  **Details about `shard_map` and how to use various collectives.**
 
 ## 🧑‍🚀 For Aurora's Elite:
 
